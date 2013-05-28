@@ -18,11 +18,6 @@
 		2438B367174E7DF1002C6795 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2438B366174E7DF1002C6795 /* Default-568h@2x.png */; };
 		2438B36A174E7DF1002C6795 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2438B369174E7DF1002C6795 /* ViewController.m */; };
 		2438B36D174E7DF1002C6795 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2438B36B174E7DF1002C6795 /* ViewController.xib */; };
-		2438B375174E7DF1002C6795 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2438B374174E7DF1002C6795 /* SenTestingKit.framework */; };
-		2438B376174E7DF1002C6795 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2438B350174E7DF1002C6795 /* UIKit.framework */; };
-		2438B377174E7DF1002C6795 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2438B352174E7DF1002C6795 /* Foundation.framework */; };
-		2438B37F174E7DF1002C6795 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2438B37D174E7DF1002C6795 /* InfoPlist.strings */; };
-		2438B382174E7DF1002C6795 /* Google_Maps_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2438B381174E7DF1002C6795 /* Google_Maps_DemoTests.m */; };
 		2438B38C174F8DE0002C6795 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2438B38B174F8DE0002C6795 /* GoogleMaps.framework */; };
 		2438B38E174F8DF0002C6795 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2438B38D174F8DF0002C6795 /* GoogleMaps.bundle */; };
 		2438B390174F8F40002C6795 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2438B38F174F8F40002C6795 /* AVFoundation.framework */; };
@@ -38,16 +33,6 @@
 		2438B3A4174F8F73002C6795 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2438B3A3174F8F73002C6795 /* QuartzCore.framework */; };
 		2438B3A6174F8F78002C6795 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2438B3A5174F8F78002C6795 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		2438B378174E7DF1002C6795 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2438B345174E7DF0002C6795 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2438B34C174E7DF0002C6795;
-			remoteInfo = "Google Maps Demo";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2438B34D174E7DF1002C6795 /* Google Maps Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google Maps Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,7 +51,6 @@
 		2438B368174E7DF1002C6795 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2438B369174E7DF1002C6795 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2438B36C174E7DF1002C6795 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		2438B373174E7DF1002C6795 /* Google Maps DemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Google Maps DemoTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2438B374174E7DF1002C6795 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		2438B37C174E7DF1002C6795 /* Google Maps DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Google Maps DemoTests-Info.plist"; sourceTree = "<group>"; };
 		2438B37E174E7DF1002C6795 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -112,16 +96,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2438B36F174E7DF1002C6795 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2438B375174E7DF1002C6795 /* SenTestingKit.framework in Frameworks */,
-				2438B376174E7DF1002C6795 /* UIKit.framework in Frameworks */,
-				2438B377174E7DF1002C6795 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -139,7 +113,6 @@
 			isa = PBXGroup;
 			children = (
 				2438B34D174E7DF1002C6795 /* Google Maps Demo.app */,
-				2438B373174E7DF1002C6795 /* Google Maps DemoTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -235,25 +208,6 @@
 			productReference = 2438B34D174E7DF1002C6795 /* Google Maps Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2438B372174E7DF1002C6795 /* Google Maps DemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2438B388174E7DF1002C6795 /* Build configuration list for PBXNativeTarget "Google Maps DemoTests" */;
-			buildPhases = (
-				2438B36E174E7DF1002C6795 /* Sources */,
-				2438B36F174E7DF1002C6795 /* Frameworks */,
-				2438B370174E7DF1002C6795 /* Resources */,
-				2438B371174E7DF1002C6795 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2438B379174E7DF1002C6795 /* PBXTargetDependency */,
-			);
-			name = "Google Maps DemoTests";
-			productName = "Google Maps DemoTests";
-			productReference = 2438B373174E7DF1002C6795 /* Google Maps DemoTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -276,7 +230,6 @@
 			projectRoot = "";
 			targets = (
 				2438B34C174E7DF0002C6795 /* Google Maps Demo */,
-				2438B372174E7DF1002C6795 /* Google Maps DemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -295,31 +248,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2438B370174E7DF1002C6795 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2438B37F174E7DF1002C6795 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		2438B371174E7DF1002C6795 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2438B349174E7DF0002C6795 /* Sources */ = {
@@ -332,23 +261,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2438B36E174E7DF1002C6795 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2438B382174E7DF1002C6795 /* Google_Maps_DemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2438B379174E7DF1002C6795 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2438B34C174E7DF0002C6795 /* Google Maps Demo */;
-			targetProxy = 2438B378174E7DF1002C6795 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2438B359174E7DF1002C6795 /* InfoPlist.strings */ = {
@@ -437,6 +350,7 @@
 		2438B386174E7DF1002C6795 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = armv7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -453,6 +367,7 @@
 		2438B387174E7DF1002C6795 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = armv7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -463,40 +378,6 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		2438B389174E7DF1002C6795 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Google Maps Demo.app/Google Maps Demo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Google Maps Demo/Google Maps Demo-Prefix.pch";
-				INFOPLIST_FILE = "Google Maps DemoTests/Google Maps DemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		2438B38A174E7DF1002C6795 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Google Maps Demo.app/Google Maps Demo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Google Maps Demo/Google Maps Demo-Prefix.pch";
-				INFOPLIST_FILE = "Google Maps DemoTests/Google Maps DemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -517,15 +398,6 @@
 			buildConfigurations = (
 				2438B386174E7DF1002C6795 /* Debug */,
 				2438B387174E7DF1002C6795 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2438B388174E7DF1002C6795 /* Build configuration list for PBXNativeTarget "Google Maps DemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2438B389174E7DF1002C6795 /* Debug */,
-				2438B38A174E7DF1002C6795 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
