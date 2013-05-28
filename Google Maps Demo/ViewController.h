@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <GoogleMaps/GoogleMaps.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <GMSMapViewDelegate> {
+	IBOutlet GMSMapView *GoogleMapsView;
+	IBOutlet UILabel *superText;
+}
+
+-(IBAction) showMoscow: (id) sender;
 
 @end
